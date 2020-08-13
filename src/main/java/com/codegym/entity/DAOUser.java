@@ -9,7 +9,7 @@ import javax.persistence.*;
 public class DAOUser {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private long id;
 
     @Column
     private String username;
